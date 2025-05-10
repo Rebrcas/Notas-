@@ -1,0 +1,35 @@
+
+programa
+{
+	
+inclua biblioteca Matematica-->mat
+
+	funcao inicio ()
+	{
+		real n1, n2, n3, n4, media 
+		real arredondar
+		
+		escreva("entre com nota 1")
+		leia(n1)
+	
+		escreva("entre com nota 2")
+		leia(n2)
+	
+		escreva("entre com nota 3")
+		leia(n3)
+		
+		escreva("entre com nota 4")
+		leia(n4)
+		
+			
+		media= (n1+n2+n3+n4)/4
+		limpa()
+		
+		arredondar=mat.arredondar(media,2)
+		escreva("media:"+arredondar)
+		
+		
+
+	}
+}
+}
